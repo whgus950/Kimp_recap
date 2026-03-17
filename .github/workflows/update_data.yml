@@ -2,10 +2,8 @@ name: Daily Crypto Data Collection
 
 on:
   schedule:
-    # 매일 UTC 기준 01:20 에 실행 (한국 시간 KST 오전 10:20)
-    # cron 표현식: 분 시 일 월 요일
     - cron: '20 1 * * *'
-  workflow_dispatch: # 수동 실행 버튼 활성화
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,10 +14,10 @@ jobs:
 
     steps:
       - name: 저장소 코드 체크아웃
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # v3 -> v4로 업데이트됨
 
       - name: Python 환경 설정
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # v4 -> v5로 업데이트됨
         with:
           python-version: '3.10'
 
@@ -30,13 +28,10 @@ jobs:
 
       - name: 데이터 복원 (Backfill) 실행
         run: |
-          # 어제와 오늘 날짜의 0시, 9시 데이터 빈틈을 체크하고 채워줍니다.
-          # Ubuntu 컨테이너의 기본 시간대는 UTC이므로, 백필 로직 내에서 KST 기준으로 작동하는지 확인
           python backfill.py
 
       - name: 인덱스 업데이트
         run: |
-          # data 폴더의 json 목록을 갱신합니다.
           python update_index.py
 
       - name: 변경된 데이터 커밋 및 푸시
@@ -44,5 +39,10 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          # 변경사항이 없다면 커밋하지 않음
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update crypto data" && git push)
+          # 에러 안나게 안전한 방식으로 변경됨
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git commit -m "Auto-update crypto data"
+            git push
+          else
+            echo "No changes to commit."
+          fi
