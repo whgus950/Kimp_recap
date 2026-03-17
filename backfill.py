@@ -59,7 +59,7 @@ def fetch_bybit_candles(symbol, start_ts, end_ts):
     바이비트 1분봉 데이터를 가져옵니다.
     GET /v5/market/kline?category=linear&symbol={symbol}USDT&interval=1&start={ms}&end={ms}
     """
-    url = (f"https://api.bybit.com/v5/market/kline"
+    url = (f"https://api.bytick.com/v5/market/kline"
            f"?category=linear&symbol={symbol}USDT&interval=1"
            f"&start={start_ts}&end={end_ts}&limit=200")
     try:
