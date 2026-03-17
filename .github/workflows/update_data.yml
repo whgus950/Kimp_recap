@@ -11,13 +11,15 @@ permissions:
 jobs:
   collect-data:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: 저장소 코드 체크아웃
-        uses: actions/checkout@v4 # v3 -> v4로 업데이트됨
+        uses: actions/checkout@v4
 
       - name: Python 환경 설정
-        uses: actions/setup-python@v5 # v4 -> v5로 업데이트됨
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -27,11 +29,15 @@ jobs:
           pip install requests
 
       - name: 데이터 복원 (Backfill) 실행
+        continue-on-error: false
         run: |
+          set -e
           python backfill.py
 
       - name: 인덱스 업데이트
+        continue-on-error: false
         run: |
+          set -e
           python update_index.py
 
       - name: 변경된 데이터 커밋 및 푸시
@@ -39,7 +45,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          # 에러 안나게 안전한 방식으로 변경됨
+          # 변경사항이 있다면 커밋, 없다면 건너뜀
           if [ -n "$(git status --porcelain data/)" ]; then
             git commit -m "Auto-update crypto data"
             git push
