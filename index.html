@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김치프리미엄 리캡 | Kimchi Premium Recap (Static)</title>
+  <meta name="description" content="김치프리미엄 모니터링 및 통계 대시보드 - 빗썸/업비트 vs 바이비트/바이낸스">
+  <!-- GitHub Pages 에서는 상대경로 사용 -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="public/style.css">
+</head>
+
+<body>
+  <!-- ── Header ──────────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-left">
+      <div class="logo">
+        <span class="logo-icon">📊</span>
+        <h1>김프 리캡</h1>
+      </div>
+      <span class="subtitle">Kimchi Premium Recap</span>
+    </div>
+    <div class="header-right">
+      <div class="exchange-selector">
+        <div class="selector-group">
+          <label>국내</label>
+          <select id="domestic-exchange">
+            <option value="bithumb" selected>빗썸</option>
+            <option value="upbit">업비트</option>
+          </select>
+        </div>
+        <span class="vs-badge">VS</span>
+        <div class="selector-group">
+          <label>해외</label>
+          <select id="foreign-exchange">
+            <option value="bybit" selected>바이비트 USDT-PERP</option>
+            <option value="binance">바이낸스 USDT-PERP</option>
+          </select>
+        </div>
+      </div>
+      <div class="collection-time" id="collection-time-display">
+        수집 시간: <strong>00:00 ~ 00:15 KST</strong>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Navigation Tabs ─────────────────────────────────────── -->
+  <nav class="tabs" id="main-tabs">
+    <button class="tab active" data-tab="archive">
+      <span class="tab-icon">📁</span> 일별 아카이브
+    </button>
+    <button class="tab" data-tab="stats">
+      <span class="tab-icon">📈</span> 기간별 통계
+    </button>
+    <button class="tab" data-tab="weekend">
+      <span class="tab-icon">🗓️</span> 주말 통계
+    </button>
+  </nav>
+
+  <!-- ── Main Content ────────────────────────────────────────── -->
+  <main class="main-content">
+
+    <!-- Archive Tab -->
+    <section class="tab-panel active" id="panel-archive">
+      <div class="panel-header">
+        <h2>일별 아카이브</h2>
+        <div class="date-picker-wrapper">
+          <label for="archive-date">날짜 선택:</label>
+          <select id="archive-date" class="date-select">
+            <option value="">날짜를 선택하세요</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="archive-content" class="panel-body">
+        <div class="empty-state">
+          <span class="empty-icon">📋</span>
+          <p>날짜를 선택하면 해당일의 김프 데이터를 볼 수 있습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Tab -->
+    <section class="tab-panel" id="panel-stats">
+      <div class="panel-header">
+        <h2>기간별 통계</h2>
+        <div class="period-selector">
+          <button class="period-btn active" data-period="3d">3일</button>
+          <button class="period-btn" data-period="7d">7일</button>
+          <button class="period-btn" data-period="14d">14일</button>
+          <button class="period-btn" data-period="30d">30일</button>
+        </div>
+      </div>
+
+      <div id="stats-content" class="panel-body">
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>데이터 로딩 중...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Weekend Tab -->
+    <section class="tab-panel" id="panel-weekend">
+      <div class="panel-header">
+        <h2>주말 통계 (최근 4주)</h2>
+      </div>
+
+      <div id="weekend-content" class="panel-body">
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>데이터 로딩 중...</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ──────────────────────────────────────────────── -->
+  <footer class="footer">
+    <p>김프 리캡 &mdash; 매일 심야/조조 김치프리미엄을 정적 환경에서 기록합니다</p>
+    <p class="footer-sub">데이터 기준: 테더 김프 + 5% 이상인 코인만 기록 | 파이썬 서버 없이 작동 중</p>
+  </footer>
+
+  <!-- 서버 API용 app.js 대신 GitHub Pages 용 static_app.js 사용 -->
+  <script src="public/static_app.js"></script>
+</body>
+
+</html>
