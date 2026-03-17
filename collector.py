@@ -5,15 +5,9 @@ collector.py — 김치프리미엄 데이터 수집 모듈 (v2)
 빗썸/업비트 × 바이비트/바이낸스 = 4가지 조합
 """
 
-import urllib.request
+import requests
 import json
-import ssl
 import time as _time
-
-# SSL 검증 비활성화 (일부 API에서 필요)
-ssl_ctx = ssl.create_default_context()
-ssl_ctx.check_hostname = False
-ssl_ctx.verify_mode = ssl.CERT_NONE
 
 # ─── API Endpoints ───────────────────────────────────────────────
 
@@ -48,9 +42,12 @@ COMBOS = [
 # ─── Helpers ─────────────────────────────────────────────────────
 
 def fetch_json(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    with urllib.request.urlopen(req, context=ssl_ctx, timeout=15) as resp:
-        return json.loads(resp.read().decode('utf-8'))
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    }
+    resp = requests.get(url, headers=headers, timeout=15, verify=False)
+    resp.raise_for_status()
+    return resp.json()
 
 
 # ─── Bithumb ─────────────────────────────────────────────────────
