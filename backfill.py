@@ -16,7 +16,7 @@ import time as _time
 from datetime import datetime, timezone, timedelta
 from collector import (
     fetch_json, fetch_bithumb_asset_status, fetch_bithumb_network_info,
-    enrich_with_network_info, ssl_ctx,
+    enrich_with_network_info,
     API, COMBOS,
 )
 import urllib.request
