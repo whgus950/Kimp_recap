@@ -23,7 +23,7 @@ API = {
         'ticker': 'https://api.upbit.com/v1/ticker',
     },
     'bybit': {
-        'tickers': 'https://api.bybit.com/v5/market/tickers?category=linear',
+        'tickers': 'https://api.bytick.com/v5/market/tickers?category=linear',
     },
     'binance': {
         'tickers': 'https://fapi.binance.com/fapi/v1/ticker/price',
