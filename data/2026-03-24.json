@@ -6,8 +6,8 @@
   "combinations": {
     "bithumb-bybit": {
       "tetherPremium": {
-        "avg": -0.38,
-        "max": -0.34
+        "avg": -1.04,
+        "max": -1.0
       },
       "totalSnapshots": 17,
       "coins": [
@@ -390,7 +390,7 @@
         },
         {
           "symbol": "XCN",
-          "avgPremium": 4.72,
+          "avgPremium": 4.54,
           "maxPremium": 4.72,
           "depositEnabled": true,
           "withdrawalEnabled": true,
@@ -399,20 +399,26 @@
           ],
           "snapshots": [
             {
+              "time": "00:14:00",
+              "premium": 4.35,
+              "krwPrice": 8.442,
+              "usdtPrice": 0.005455
+            },
+            {
               "time": "00:16:00",
               "premium": 4.72,
               "krwPrice": 8.177,
               "usdtPrice": 0.005269
             }
           ],
-          "appearances": 1
+          "appearances": 2
         }
       ]
     },
     "bithumb-binance": {
       "tetherPremium": {
-        "avg": -0.38,
-        "max": -0.34
+        "avg": -1.04,
+        "max": -1.0
       },
       "totalSnapshots": 15,
       "coins": [
@@ -706,8 +712,8 @@
     },
     "upbit-bybit": {
       "tetherPremium": {
-        "avg": -0.27,
-        "max": -0.27
+        "avg": -0.93,
+        "max": -0.93
       },
       "totalSnapshots": 16,
       "coins": [
@@ -1012,8 +1018,8 @@
     },
     "upbit-binance": {
       "tetherPremium": {
-        "avg": -0.27,
-        "max": -0.27
+        "avg": -0.93,
+        "max": -0.93
       },
       "totalSnapshots": 16,
       "coins": [
@@ -1316,7 +1322,7 @@
         },
         {
           "symbol": "BARD",
-          "avgPremium": 5.35,
+          "avgPremium": 5.31,
           "maxPremium": 6.43,
           "depositEnabled": true,
           "withdrawalEnabled": true,
@@ -1391,6 +1397,12 @@
               "usdtPrice": 0.4754
             },
             {
+              "time": "09:12:00",
+              "premium": 4.72,
+              "krwPrice": 738.0,
+              "usdtPrice": 0.4749
+            },
+            {
               "time": "09:13:00",
               "premium": 5.11,
               "krwPrice": 742.0,
@@ -1409,7 +1421,7 @@
               "usdtPrice": 0.4749
             }
           ],
-          "appearances": 14
+          "appearances": 15
         }
       ]
     }
