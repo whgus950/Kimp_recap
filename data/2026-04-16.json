@@ -1,0 +1,1250 @@
+{
+  "date": "2026-04-16",
+  "isWeekend": false,
+  "backfilled": true,
+  "window": "00:00-00:16",
+  "combinations": {
+    "bithumb-bybit": {
+      "tetherPremium": {
+        "avg": 0.26,
+        "max": 0.32
+      },
+      "totalSnapshots": 17,
+      "coins": [
+        {
+          "symbol": "SOLV",
+          "avgPremium": 102.68,
+          "maxPremium": 107.91,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "BNB Smart Chain"
+          ],
+          "snapshots": [
+            {
+              "time": "00:00:00",
+              "premium": 103.45,
+              "krwPrice": 12.77,
+              "usdtPrice": 0.004244
+            },
+            {
+              "time": "00:01:00",
+              "premium": 102.44,
+              "krwPrice": 12.74,
+              "usdtPrice": 0.004255
+            },
+            {
+              "time": "00:02:00",
+              "premium": 102.49,
+              "krwPrice": 12.77,
+              "usdtPrice": 0.004264
+            },
+            {
+              "time": "00:03:00",
+              "premium": 107.91,
+              "krwPrice": 13.13,
+              "usdtPrice": 0.00427
+            },
+            {
+              "time": "00:04:00",
+              "premium": 105.94,
+              "krwPrice": 13.0,
+              "usdtPrice": 0.004268
+            },
+            {
+              "time": "00:05:00",
+              "premium": 100.61,
+              "krwPrice": 12.66,
+              "usdtPrice": 0.004267
+            },
+            {
+              "time": "00:06:00",
+              "premium": 101.55,
+              "krwPrice": 12.74,
+              "usdtPrice": 0.004271
+            },
+            {
+              "time": "00:07:00",
+              "premium": 101.12,
+              "krwPrice": 12.71,
+              "usdtPrice": 0.00427
+            },
+            {
+              "time": "00:08:00",
+              "premium": 101.66,
+              "krwPrice": 12.7,
+              "usdtPrice": 0.004258
+            },
+            {
+              "time": "00:09:00",
+              "premium": 100.98,
+              "krwPrice": 12.66,
+              "usdtPrice": 0.004259
+            },
+            {
+              "time": "00:10:00",
+              "premium": 103.43,
+              "krwPrice": 12.82,
+              "usdtPrice": 0.004258
+            },
+            {
+              "time": "00:11:00",
+              "premium": 102.3,
+              "krwPrice": 12.74,
+              "usdtPrice": 0.004258
+            },
+            {
+              "time": "00:12:00",
+              "premium": 102.23,
+              "krwPrice": 12.75,
+              "usdtPrice": 0.00426
+            },
+            {
+              "time": "00:13:00",
+              "premium": 102.52,
+              "krwPrice": 12.76,
+              "usdtPrice": 0.00426
+            },
+            {
+              "time": "00:14:00",
+              "premium": 102.41,
+              "krwPrice": 12.78,
+              "usdtPrice": 0.004269
+            },
+            {
+              "time": "00:15:00",
+              "premium": 102.38,
+              "krwPrice": 12.76,
+              "usdtPrice": 0.004263
+            },
+            {
+              "time": "00:16:00",
+              "premium": 102.12,
+              "krwPrice": 12.75,
+              "usdtPrice": 0.004268
+            }
+          ],
+          "appearances": 17
+        },
+        {
+          "symbol": "DRIFT",
+          "avgPremium": 93.85,
+          "maxPremium": 96.72,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "Solana"
+          ],
+          "snapshots": [
+            {
+              "time": "00:01:00",
+              "premium": 93.23,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04234
+            },
+            {
+              "time": "00:02:00",
+              "premium": 94.64,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.04238
+            },
+            {
+              "time": "00:03:00",
+              "premium": 94.73,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.04236
+            },
+            {
+              "time": "00:04:00",
+              "premium": 94.55,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.0424
+            },
+            {
+              "time": "00:05:00",
+              "premium": 93.04,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04238
+            },
+            {
+              "time": "00:06:00",
+              "premium": 91.41,
+              "krwPrice": 120.0,
+              "usdtPrice": 0.04236
+            },
+            {
+              "time": "00:07:00",
+              "premium": 91.59,
+              "krwPrice": 120.0,
+              "usdtPrice": 0.04232
+            },
+            {
+              "time": "00:08:00",
+              "premium": 92.95,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.0424
+            },
+            {
+              "time": "00:09:00",
+              "premium": 93.18,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04235
+            },
+            {
+              "time": "00:10:00",
+              "premium": 93.28,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.0423
+            },
+            {
+              "time": "00:11:00",
+              "premium": 93.55,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04227
+            },
+            {
+              "time": "00:12:00",
+              "premium": 94.29,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04208
+            },
+            {
+              "time": "00:13:00",
+              "premium": 94.74,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04201
+            },
+            {
+              "time": "00:14:00",
+              "premium": 93.18,
+              "krwPrice": 120.0,
+              "usdtPrice": 0.042
+            },
+            {
+              "time": "00:15:00",
+              "premium": 96.54,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.04197
+            },
+            {
+              "time": "00:16:00",
+              "premium": 96.72,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.04196
+            }
+          ],
+          "appearances": 16
+        },
+        {
+          "symbol": "XVS",
+          "avgPremium": 78.29,
+          "maxPremium": 81.77,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "BNB Smart Chain"
+          ],
+          "snapshots": [
+            {
+              "time": "00:00:00",
+              "premium": 81.77,
+              "krwPrice": 7135.0,
+              "usdtPrice": 2.654
+            },
+            {
+              "time": "00:01:00",
+              "premium": 80.37,
+              "krwPrice": 7080.0,
+              "usdtPrice": 2.654
+            },
+            {
+              "time": "00:02:00",
+              "premium": 78.97,
+              "krwPrice": 7025.0,
+              "usdtPrice": 2.654
+            },
+            {
+              "time": "00:03:00",
+              "premium": 78.15,
+              "krwPrice": 6985.0,
+              "usdtPrice": 2.651
+            },
+            {
+              "time": "00:04:00",
+              "premium": 79.63,
+              "krwPrice": 7035.0,
+              "usdtPrice": 2.648
+            },
+            {
+              "time": "00:05:00",
+              "premium": 78.99,
+              "krwPrice": 7010.0,
+              "usdtPrice": 2.648
+            },
+            {
+              "time": "00:06:00",
+              "premium": 80.03,
+              "krwPrice": 7050.0,
+              "usdtPrice": 2.646
+            },
+            {
+              "time": "00:07:00",
+              "premium": 80.03,
+              "krwPrice": 7050.0,
+              "usdtPrice": 2.646
+            },
+            {
+              "time": "00:08:00",
+              "premium": 80.4,
+              "krwPrice": 7060.0,
+              "usdtPrice": 2.646
+            },
+            {
+              "time": "00:09:00",
+              "premium": 77.87,
+              "krwPrice": 6945.0,
+              "usdtPrice": 2.64
+            },
+            {
+              "time": "00:10:00",
+              "premium": 77.62,
+              "krwPrice": 6940.0,
+              "usdtPrice": 2.64
+            },
+            {
+              "time": "00:11:00",
+              "premium": 75.44,
+              "krwPrice": 6850.0,
+              "usdtPrice": 2.64
+            },
+            {
+              "time": "00:12:00",
+              "premium": 74.17,
+              "krwPrice": 6805.0,
+              "usdtPrice": 2.64
+            },
+            {
+              "time": "00:13:00",
+              "premium": 77.23,
+              "krwPrice": 6920.0,
+              "usdtPrice": 2.64
+            },
+            {
+              "time": "00:14:00",
+              "premium": 77.04,
+              "krwPrice": 6910.0,
+              "usdtPrice": 2.639
+            },
+            {
+              "time": "00:15:00",
+              "premium": 77.17,
+              "krwPrice": 6915.0,
+              "usdtPrice": 2.639
+            },
+            {
+              "time": "00:16:00",
+              "premium": 76.13,
+              "krwPrice": 6870.0,
+              "usdtPrice": 2.639
+            }
+          ],
+          "appearances": 17
+        },
+        {
+          "symbol": "RESOLV",
+          "avgPremium": 40.78,
+          "maxPremium": 42.89,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "Ethereum"
+          ],
+          "snapshots": [
+            {
+              "time": "00:00:00",
+              "premium": 41.45,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.03466
+            },
+            {
+              "time": "00:01:00",
+              "premium": 41.45,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.03466
+            },
+            {
+              "time": "00:02:00",
+              "premium": 41.29,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.0347
+            },
+            {
+              "time": "00:03:00",
+              "premium": 41.29,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.0347
+            },
+            {
+              "time": "00:04:00",
+              "premium": 41.45,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.03466
+            },
+            {
+              "time": "00:05:00",
+              "premium": 40.43,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.03454
+            },
+            {
+              "time": "00:06:00",
+              "premium": 40.38,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.03453
+            },
+            {
+              "time": "00:07:00",
+              "premium": 40.71,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.03445
+            },
+            {
+              "time": "00:08:00",
+              "premium": 40.6,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.0345
+            },
+            {
+              "time": "00:09:00",
+              "premium": 40.51,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.03452
+            },
+            {
+              "time": "00:10:00",
+              "premium": 40.67,
+              "krwPrice": 71.72,
+              "usdtPrice": 0.03445
+            },
+            {
+              "time": "00:11:00",
+              "premium": 39.81,
+              "krwPrice": 71.07,
+              "usdtPrice": 0.03437
+            },
+            {
+              "time": "00:12:00",
+              "premium": 39.88,
+              "krwPrice": 71.07,
+              "usdtPrice": 0.03433
+            },
+            {
+              "time": "00:13:00",
+              "premium": 39.72,
+              "krwPrice": 70.94,
+              "usdtPrice": 0.03433
+            },
+            {
+              "time": "00:14:00",
+              "premium": 39.93,
+              "krwPrice": 71.07,
+              "usdtPrice": 0.03434
+            },
+            {
+              "time": "00:15:00",
+              "premium": 40.75,
+              "krwPrice": 71.59,
+              "usdtPrice": 0.03439
+            },
+            {
+              "time": "00:16:00",
+              "premium": 42.89,
+              "krwPrice": 72.48,
+              "usdtPrice": 0.03432
+            }
+          ],
+          "appearances": 17
+        },
+        {
+          "symbol": "XION",
+          "avgPremium": 5.37,
+          "maxPremium": 5.37,
+          "depositEnabled": true,
+          "withdrawalEnabled": true,
+          "networks": [
+            "XION"
+          ],
+          "snapshots": [
+            {
+              "time": "00:16:00",
+              "premium": 5.37,
+              "krwPrice": 203.0,
+              "usdtPrice": 0.13035
+            }
+          ],
+          "appearances": 1
+        }
+      ]
+    },
+    "bithumb-binance": {
+      "tetherPremium": {
+        "avg": 0.26,
+        "max": 0.32
+      },
+      "totalSnapshots": 17,
+      "coins": [
+        {
+          "symbol": "SOLV",
+          "avgPremium": 102.86,
+          "maxPremium": 108.05,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "BNB Smart Chain"
+          ],
+          "snapshots": [
+            {
+              "time": "00:00:00",
+              "premium": 103.49,
+              "krwPrice": 12.77,
+              "usdtPrice": 0.004243
+            },
+            {
+              "time": "00:01:00",
+              "premium": 102.54,
+              "krwPrice": 12.74,
+              "usdtPrice": 0.004253
+            },
+            {
+              "time": "00:02:00",
+              "premium": 102.59,
+              "krwPrice": 12.77,
+              "usdtPrice": 0.004262
+            },
+            {
+              "time": "00:03:00",
+              "premium": 108.05,
+              "krwPrice": 13.13,
+              "usdtPrice": 0.004267
+            },
+            {
+              "time": "00:04:00",
+              "premium": 106.19,
+              "krwPrice": 13.0,
+              "usdtPrice": 0.004263
+            },
+            {
+              "time": "00:05:00",
+              "premium": 100.79,
+              "krwPrice": 12.66,
+              "usdtPrice": 0.004263
+            },
+            {
+              "time": "00:06:00",
+              "premium": 101.74,
+              "krwPrice": 12.74,
+              "usdtPrice": 0.004267
+            },
+            {
+              "time": "00:07:00",
+              "premium": 101.36,
+              "krwPrice": 12.71,
+              "usdtPrice": 0.004265
+            },
+            {
+              "time": "00:08:00",
+              "premium": 101.9,
+              "krwPrice": 12.7,
+              "usdtPrice": 0.004253
+            },
+            {
+              "time": "00:09:00",
+              "premium": 101.22,
+              "krwPrice": 12.66,
+              "usdtPrice": 0.004254
+            },
+            {
+              "time": "00:10:00",
+              "premium": 103.67,
+              "krwPrice": 12.82,
+              "usdtPrice": 0.004253
+            },
+            {
+              "time": "00:11:00",
+              "premium": 102.39,
+              "krwPrice": 12.74,
+              "usdtPrice": 0.004256
+            },
+            {
+              "time": "00:12:00",
+              "premium": 102.32,
+              "krwPrice": 12.75,
+              "usdtPrice": 0.004258
+            },
+            {
+              "time": "00:13:00",
+              "premium": 102.9,
+              "krwPrice": 12.76,
+              "usdtPrice": 0.004252
+            },
+            {
+              "time": "00:14:00",
+              "premium": 102.65,
+              "krwPrice": 12.78,
+              "usdtPrice": 0.004264
+            },
+            {
+              "time": "00:15:00",
+              "premium": 102.62,
+              "krwPrice": 12.76,
+              "usdtPrice": 0.004258
+            },
+            {
+              "time": "00:16:00",
+              "premium": 102.17,
+              "krwPrice": 12.75,
+              "usdtPrice": 0.004267
+            }
+          ],
+          "appearances": 17
+        },
+        {
+          "symbol": "DRIFT",
+          "avgPremium": 93.47,
+          "maxPremium": 96.39,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "Solana"
+          ],
+          "snapshots": [
+            {
+              "time": "00:01:00",
+              "premium": 92.86,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04242
+            },
+            {
+              "time": "00:02:00",
+              "premium": 94.32,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.04245
+            },
+            {
+              "time": "00:03:00",
+              "premium": 94.36,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.04244
+            },
+            {
+              "time": "00:04:00",
+              "premium": 94.09,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.0425
+            },
+            {
+              "time": "00:05:00",
+              "premium": 92.45,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04251
+            },
+            {
+              "time": "00:06:00",
+              "premium": 90.96,
+              "krwPrice": 120.0,
+              "usdtPrice": 0.04246
+            },
+            {
+              "time": "00:07:00",
+              "premium": 90.91,
+              "krwPrice": 120.0,
+              "usdtPrice": 0.04247
+            },
+            {
+              "time": "00:08:00",
+              "premium": 92.45,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04251
+            },
+            {
+              "time": "00:09:00",
+              "premium": 92.77,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04244
+            },
+            {
+              "time": "00:10:00",
+              "premium": 93.05,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04235
+            },
+            {
+              "time": "00:11:00",
+              "premium": 93.45,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04229
+            },
+            {
+              "time": "00:12:00",
+              "premium": 93.87,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04217
+            },
+            {
+              "time": "00:13:00",
+              "premium": 94.47,
+              "krwPrice": 121.0,
+              "usdtPrice": 0.04207
+            },
+            {
+              "time": "00:14:00",
+              "premium": 92.91,
+              "krwPrice": 120.0,
+              "usdtPrice": 0.04206
+            },
+            {
+              "time": "00:15:00",
+              "premium": 96.17,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.04205
+            },
+            {
+              "time": "00:16:00",
+              "premium": 96.39,
+              "krwPrice": 122.0,
+              "usdtPrice": 0.04203
+            }
+          ],
+          "appearances": 16
+        },
+        {
+          "symbol": "XVS",
+          "avgPremium": 78.44,
+          "maxPremium": 82.05,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "BNB Smart Chain"
+          ],
+          "snapshots": [
+            {
+              "time": "00:00:00",
+              "premium": 82.05,
+              "krwPrice": 7135.0,
+              "usdtPrice": 2.65
+            },
+            {
+              "time": "00:01:00",
+              "premium": 80.64,
+              "krwPrice": 7080.0,
+              "usdtPrice": 2.65
+            },
+            {
+              "time": "00:02:00",
+              "premium": 79.17,
+              "krwPrice": 7025.0,
+              "usdtPrice": 2.651
+            },
+            {
+              "time": "00:03:00",
+              "premium": 78.15,
+              "krwPrice": 6985.0,
+              "usdtPrice": 2.651
+            },
+            {
+              "time": "00:04:00",
+              "premium": 79.83,
+              "krwPrice": 7035.0,
+              "usdtPrice": 2.645
+            },
+            {
+              "time": "00:05:00",
+              "premium": 79.19,
+              "krwPrice": 7010.0,
+              "usdtPrice": 2.645
+            },
+            {
+              "time": "00:06:00",
+              "premium": 80.23,
+              "krwPrice": 7050.0,
+              "usdtPrice": 2.643
+            },
+            {
+              "time": "00:07:00",
+              "premium": 80.3,
+              "krwPrice": 7050.0,
+              "usdtPrice": 2.642
+            },
+            {
+              "time": "00:08:00",
+              "premium": 80.81,
+              "krwPrice": 7060.0,
+              "usdtPrice": 2.64
+            },
+            {
+              "time": "00:09:00",
+              "premium": 78.0,
+              "krwPrice": 6945.0,
+              "usdtPrice": 2.638
+            },
+            {
+              "time": "00:10:00",
+              "premium": 77.69,
+              "krwPrice": 6940.0,
+              "usdtPrice": 2.639
+            },
+            {
+              "time": "00:11:00",
+              "premium": 75.57,
+              "krwPrice": 6850.0,
+              "usdtPrice": 2.638
+            },
+            {
+              "time": "00:12:00",
+              "premium": 74.3,
+              "krwPrice": 6805.0,
+              "usdtPrice": 2.638
+            },
+            {
+              "time": "00:13:00",
+              "premium": 77.36,
+              "krwPrice": 6920.0,
+              "usdtPrice": 2.638
+            },
+            {
+              "time": "00:14:00",
+              "premium": 76.97,
+              "krwPrice": 6910.0,
+              "usdtPrice": 2.64
+            },
+            {
+              "time": "00:15:00",
+              "premium": 77.1,
+              "krwPrice": 6915.0,
+              "usdtPrice": 2.64
+            },
+            {
+              "time": "00:16:00",
+              "premium": 76.07,
+              "krwPrice": 6870.0,
+              "usdtPrice": 2.64
+            }
+          ],
+          "appearances": 17
+        },
+        {
+          "symbol": "RESOLV",
+          "avgPremium": 40.98,
+          "maxPremium": 43.1,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "Ethereum"
+          ],
+          "snapshots": [
+            {
+              "time": "00:00:00",
+              "premium": 41.57,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.03463
+            },
+            {
+              "time": "00:01:00",
+              "premium": 41.65,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.03461
+            },
+            {
+              "time": "00:02:00",
+              "premium": 41.41,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.03467
+            },
+            {
+              "time": "00:03:00",
+              "premium": 41.41,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.03467
+            },
+            {
+              "time": "00:04:00",
+              "premium": 41.65,
+              "krwPrice": 72.51,
+              "usdtPrice": 0.03461
+            },
+            {
+              "time": "00:05:00",
+              "premium": 40.68,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.03448
+            },
+            {
+              "time": "00:06:00",
+              "premium": 40.58,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.03448
+            },
+            {
+              "time": "00:07:00",
+              "premium": 40.83,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.03442
+            },
+            {
+              "time": "00:08:00",
+              "premium": 40.84,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.03444
+            },
+            {
+              "time": "00:09:00",
+              "premium": 40.72,
+              "krwPrice": 71.74,
+              "usdtPrice": 0.03447
+            },
+            {
+              "time": "00:10:00",
+              "premium": 40.79,
+              "krwPrice": 71.72,
+              "usdtPrice": 0.03442
+            },
+            {
+              "time": "00:11:00",
+              "premium": 40.01,
+              "krwPrice": 71.07,
+              "usdtPrice": 0.03432
+            },
+            {
+              "time": "00:12:00",
+              "premium": 40.08,
+              "krwPrice": 71.07,
+              "usdtPrice": 0.03428
+            },
+            {
+              "time": "00:13:00",
+              "premium": 39.96,
+              "krwPrice": 70.94,
+              "usdtPrice": 0.03427
+            },
+            {
+              "time": "00:14:00",
+              "premium": 40.26,
+              "krwPrice": 71.07,
+              "usdtPrice": 0.03426
+            },
+            {
+              "time": "00:15:00",
+              "premium": 41.08,
+              "krwPrice": 71.59,
+              "usdtPrice": 0.03431
+            },
+            {
+              "time": "00:16:00",
+              "premium": 43.1,
+              "krwPrice": 72.48,
+              "usdtPrice": 0.03427
+            }
+          ],
+          "appearances": 17
+        },
+        {
+          "symbol": "CTSI",
+          "avgPremium": 7.6,
+          "maxPremium": 9.72,
+          "depositEnabled": true,
+          "withdrawalEnabled": true,
+          "networks": [
+            "Ethereum"
+          ],
+          "snapshots": [
+            {
+              "time": "00:04:00",
+              "premium": 5.42,
+              "krwPrice": 51.92,
+              "usdtPrice": 0.0333
+            },
+            {
+              "time": "00:07:00",
+              "premium": 5.94,
+              "krwPrice": 52.37,
+              "usdtPrice": 0.0334
+            },
+            {
+              "time": "00:08:00",
+              "premium": 7.94,
+              "krwPrice": 54.28,
+              "usdtPrice": 0.034
+            },
+            {
+              "time": "00:09:00",
+              "premium": 9.72,
+              "krwPrice": 55.01,
+              "usdtPrice": 0.0339
+            },
+            {
+              "time": "00:10:00",
+              "premium": 8.89,
+              "krwPrice": 55.44,
+              "usdtPrice": 0.0344
+            },
+            {
+              "time": "00:11:00",
+              "premium": 7.68,
+              "krwPrice": 53.83,
+              "usdtPrice": 0.0338
+            }
+          ],
+          "appearances": 6
+        }
+      ]
+    },
+    "upbit-bybit": {
+      "tetherPremium": {
+        "avg": 0.14,
+        "max": 0.19
+      },
+      "totalSnapshots": 17,
+      "coins": [
+        {
+          "symbol": "DRIFT",
+          "avgPremium": 35.17,
+          "maxPremium": 36.07,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "Solana"
+          ],
+          "snapshots": [
+            {
+              "time": "09:00:00",
+              "premium": 36.07,
+              "krwPrice": 82.8,
+              "usdtPrice": 0.0412
+            },
+            {
+              "time": "09:01:00",
+              "premium": 35.41,
+              "krwPrice": 82.3,
+              "usdtPrice": 0.04115
+            },
+            {
+              "time": "09:02:00",
+              "premium": 35.11,
+              "krwPrice": 81.6,
+              "usdtPrice": 0.04089
+            },
+            {
+              "time": "09:03:00",
+              "premium": 35.75,
+              "krwPrice": 82.2,
+              "usdtPrice": 0.04097
+            },
+            {
+              "time": "09:04:00",
+              "premium": 35.87,
+              "krwPrice": 82.3,
+              "usdtPrice": 0.04101
+            },
+            {
+              "time": "09:05:00",
+              "premium": 35.48,
+              "krwPrice": 82.7,
+              "usdtPrice": 0.0413
+            },
+            {
+              "time": "09:06:00",
+              "premium": 35.22,
+              "krwPrice": 82.8,
+              "usdtPrice": 0.04143
+            },
+            {
+              "time": "09:07:00",
+              "premium": 35.34,
+              "krwPrice": 82.5,
+              "usdtPrice": 0.04127
+            },
+            {
+              "time": "09:08:00",
+              "premium": 35.42,
+              "krwPrice": 82.8,
+              "usdtPrice": 0.04137
+            },
+            {
+              "time": "09:09:00",
+              "premium": 35.51,
+              "krwPrice": 82.8,
+              "usdtPrice": 0.04134
+            },
+            {
+              "time": "09:10:00",
+              "premium": 35.01,
+              "krwPrice": 82.4,
+              "usdtPrice": 0.04135
+            },
+            {
+              "time": "09:11:00",
+              "premium": 35.67,
+              "krwPrice": 82.7,
+              "usdtPrice": 0.0413
+            },
+            {
+              "time": "09:12:00",
+              "premium": 34.95,
+              "krwPrice": 82.5,
+              "usdtPrice": 0.04139
+            },
+            {
+              "time": "09:13:00",
+              "premium": 34.5,
+              "krwPrice": 82.2,
+              "usdtPrice": 0.04135
+            },
+            {
+              "time": "09:14:00",
+              "premium": 34.7,
+              "krwPrice": 82.2,
+              "usdtPrice": 0.04129
+            },
+            {
+              "time": "09:15:00",
+              "premium": 34.16,
+              "krwPrice": 81.6,
+              "usdtPrice": 0.04118
+            },
+            {
+              "time": "09:16:00",
+              "premium": 33.64,
+              "krwPrice": 81.6,
+              "usdtPrice": 0.04134
+            }
+          ],
+          "appearances": 17
+        }
+      ]
+    },
+    "upbit-binance": {
+      "tetherPremium": {
+        "avg": 0.14,
+        "max": 0.19
+      },
+      "totalSnapshots": 17,
+      "coins": [
+        {
+          "symbol": "DRIFT",
+          "avgPremium": 35.18,
+          "maxPremium": 36.2,
+          "depositEnabled": false,
+          "withdrawalEnabled": true,
+          "networks": [
+            "Solana"
+          ],
+          "snapshots": [
+            {
+              "time": "09:00:00",
+              "premium": 36.2,
+              "krwPrice": 82.8,
+              "usdtPrice": 0.04116
+            },
+            {
+              "time": "09:01:00",
+              "premium": 35.51,
+              "krwPrice": 82.3,
+              "usdtPrice": 0.04112
+            },
+            {
+              "time": "09:02:00",
+              "premium": 35.14,
+              "krwPrice": 81.6,
+              "usdtPrice": 0.04088
+            },
+            {
+              "time": "09:03:00",
+              "premium": 35.75,
+              "krwPrice": 82.2,
+              "usdtPrice": 0.04097
+            },
+            {
+              "time": "09:04:00",
+              "premium": 35.87,
+              "krwPrice": 82.3,
+              "usdtPrice": 0.04101
+            },
+            {
+              "time": "09:05:00",
+              "premium": 35.25,
+              "krwPrice": 82.7,
+              "usdtPrice": 0.04137
+            },
+            {
+              "time": "09:06:00",
+              "premium": 35.15,
+              "krwPrice": 82.8,
+              "usdtPrice": 0.04145
+            },
+            {
+              "time": "09:07:00",
+              "premium": 35.57,
+              "krwPrice": 82.5,
+              "usdtPrice": 0.0412
+            },
+            {
+              "time": "09:08:00",
+              "premium": 35.35,
+              "krwPrice": 82.8,
+              "usdtPrice": 0.04139
+            },
+            {
+              "time": "09:09:00",
+              "premium": 35.55,
+              "krwPrice": 82.8,
+              "usdtPrice": 0.04133
+            },
+            {
+              "time": "09:10:00",
+              "premium": 34.98,
+              "krwPrice": 82.4,
+              "usdtPrice": 0.04136
+            },
+            {
+              "time": "09:11:00",
+              "premium": 35.8,
+              "krwPrice": 82.7,
+              "usdtPrice": 0.04126
+            },
+            {
+              "time": "09:12:00",
+              "premium": 34.79,
+              "krwPrice": 82.5,
+              "usdtPrice": 0.04144
+            },
+            {
+              "time": "09:13:00",
+              "premium": 34.5,
+              "krwPrice": 82.2,
+              "usdtPrice": 0.04135
+            },
+            {
+              "time": "09:14:00",
+              "premium": 34.63,
+              "krwPrice": 82.2,
+              "usdtPrice": 0.04131
+            },
+            {
+              "time": "09:15:00",
+              "premium": 34.19,
+              "krwPrice": 81.6,
+              "usdtPrice": 0.04117
+            },
+            {
+              "time": "09:16:00",
+              "premium": 33.8,
+              "krwPrice": 81.6,
+              "usdtPrice": 0.04129
+            }
+          ],
+          "appearances": 17
+        }
+      ]
+    }
+  }
+}
